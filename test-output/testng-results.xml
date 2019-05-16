@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5265" started-at="2019-04-04T21:13:52Z" finished-at="2019-04-04T21:13:57Z">
+  <suite name="Suite1" duration-ms="5088" started-at="2019-05-15T12:55:15Z" finished-at="2019-05-15T12:55:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5265" started-at="2019-04-04T21:13:52Z" finished-at="2019-04-04T21:13:57Z">
+    <test name="Automation_TestNg" duration-ms="5088" started-at="2019-05-15T12:55:15Z" finished-at="2019-05-15T12:55:20Z">
       <class name="Automation_TestNg.TestNg">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Automation_TestNg.TestNg@7c16905e]" name="beforeMethod" is-config="true" duration-ms="4534" started-at="2019-04-04T21:13:52Z" finished-at="2019-04-04T21:13:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Automation_TestNg.TestNg@527e5409]" name="beforeMethod" is-config="true" duration-ms="4645" started-at="2019-05-15T12:55:15Z" finished-at="2019-05-15T12:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Automation_TestNg.TestNg@7c16905e]" name="f" duration-ms="707" started-at="2019-04-04T21:13:57Z" finished-at="2019-04-04T21:13:57Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:Automation_TestNg.TestNg@527e5409]" name="f" duration-ms="415" started-at="2019-05-15T12:55:20Z" finished-at="2019-05-15T12:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Automation_TestNg.TestNg@7c16905e]" name="afterMethod" is-config="true" duration-ms="5" started-at="2019-04-04T21:13:57Z" finished-at="2019-04-04T21:13:57Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Automation_TestNg.TestNg@527e5409]" name="afterMethod" is-config="true" duration-ms="4" started-at="2019-05-15T12:55:20Z" finished-at="2019-05-15T12:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- Automation_TestNg.TestNg -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Automation_TestNg -->
+  </suite> <!-- Suite1 -->
 </testng-results>

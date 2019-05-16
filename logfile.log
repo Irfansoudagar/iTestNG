@@ -1,0 +1,3 @@
+2019-05-15 13:55:20.526 [main] INFO  utility.Log - testing this testng log4j configuration before method
+2019-05-15 13:55:20.945 [main] INFO  utility.Log - testing this testng log4j configuration
+2019-05-15 13:55:20.953 [main] INFO  utility.Log - testing this testng log4j configuration after method

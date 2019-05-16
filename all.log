@@ -1,0 +1,6 @@
+2019-04-26 12:35:08.256 [main] INFO  demo.Hello - my first log file
+2019-04-26 12:35:08.259 [main] DEBUG demo.Hello - Sample debug message
+2019-04-26 12:35:08.259 [main] INFO  demo.Hello - Sample info message
+2019-04-26 12:35:08.259 [main] WARN  demo.Hello - Sample warn message
+2019-04-26 12:35:08.259 [main] ERROR demo.Hello - Sample error message123
+2019-04-26 12:35:08.259 [main] FATAL demo.Hello - Sample fatal message1231

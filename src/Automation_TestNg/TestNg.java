@@ -1,6 +1,8 @@
 package Automation_TestNg;
-
 import org.testng.annotations.Test;
+
+import utility.*;
+
 import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
@@ -24,8 +26,8 @@ public class TestNg {
 	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	  WebElement search = driver.findElement(By.name("btnK"));
 	  ((JavascriptExecutor)driver).executeScript("arguments[0].click();", search);
-	
-	  
+	  Log.info("testing this testng log4j configuration");
+ 
   }
   @BeforeMethod
   public void beforeMethod() {
@@ -33,11 +35,13 @@ public class TestNg {
 	  driver = new FirefoxDriver();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  driver.get("https://www.google.com/");
+	  Log.info("testing this testng log4j configuration before method");
   }
 
   @AfterMethod
   public void afterMethod() {
 	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	  Log.info("testing this testng log4j configuration after method");
   }
 
 }
